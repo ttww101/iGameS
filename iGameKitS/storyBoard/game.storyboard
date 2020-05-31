@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="13C-8g-J5T">
+            <objects>
+                <viewController storyboardIdentifier="Game" useStoryboardIdentifierAsRestorationIdentifier="YES" id="grY-Td-BPL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yG2-Lv-JsV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appbg.png" translatesAutoresizingMaskIntoConstraints="NO" id="BSa-7Y-qvB">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="BSa-7Y-qvB" secondAttribute="trailing" id="Jjk-f8-UWw"/>
+                            <constraint firstItem="BSa-7Y-qvB" firstAttribute="top" secondItem="yG2-Lv-JsV" secondAttribute="top" id="Myp-cT-2Ll"/>
+                            <constraint firstItem="BSa-7Y-qvB" firstAttribute="leading" secondItem="yG2-Lv-JsV" secondAttribute="leading" id="kNz-fi-pab"/>
+                            <constraint firstAttribute="bottom" secondItem="BSa-7Y-qvB" secondAttribute="bottom" id="vLr-xW-1lP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jhc-kO-g57"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6be-RA-5hG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="88" y="53"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="appbg.png" width="1242" height="2208"/>
+    </resources>
+</document>

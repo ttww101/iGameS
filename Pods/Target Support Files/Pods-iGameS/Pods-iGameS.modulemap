@@ -1,0 +1,6 @@
+framework module Pods_iGameS {
+  umbrella header "Pods-iGameS-umbrella.h"
+
+  export *
+  module * { export * }
+}

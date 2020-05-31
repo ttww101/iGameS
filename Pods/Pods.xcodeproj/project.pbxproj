@@ -1,0 +1,1051 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2CE3E0F7EF9B20FC4FBD122F91C64198 /* JPush */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8FECBDA288EFDA57C5108034E2414BDF /* Build configuration list for PBXAggregateTarget "JPush" */;
+			buildPhases = (
+			);
+			dependencies = (
+				61A7D75865C20272D53BC19298DA2A93 /* PBXTargetDependency */,
+			);
+			name = JPush;
+		};
+		6DCA67AEEA91E7138CA0A2BC4F993DA6 /* JCore */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4EE7338F2FBA1E0EC226EF8C45298469 /* Build configuration list for PBXAggregateTarget "JCore" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = JCore;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		03E28A9F8DFB3F6590C07AE69C5E259F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		073C8C62E601BFF0DEF987DAFB990081 /* IGLDropDownMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BEC286AA4B83F572B7761F817DD5D1 /* IGLDropDownMenu-dummy.m */; };
+		09BE87ED07CF00F1CF58B8BABC2EFBC4 /* IGLDropDownMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0924B539CDF43B9C3A6232DA52A1ADC2 /* IGLDropDownMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A6B94D8877C0E4AE9B1105AB2F58382 /* JSONHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 0666B6528D0B82D7FB5117BE26E74018 /* JSONHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1024AE44A2FDA0A8DA59FFC0461DE6C7 /* Pods-iGameS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 496271B479A393F9A0742786894B72A9 /* Pods-iGameS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		161A8E220C71AF140846113C4D6F4511 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		18C617CEA0EA66D3C1EA6CDEF3FB772D /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 507F90653EB758EB8403AF3CF1740864 /* JSONModelError.m */; };
+		18DED879A43AF6014BB29A59F2AFFCF5 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EAE243BE17DBF5757A0E709C947808 /* JSONAPI.m */; };
+		2693A09F9361C71EE9255CA97DE041C8 /* JSONModelLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D163B1F54AB68DC62A4952ECF0EB2F7 /* JSONModelLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B41042A9F9BB71371099BAEE092C151 /* IGLDropDownMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = E77E717E3E4F291D0D100FC5DB7EAD93 /* IGLDropDownMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FB551018B95C5F599F40F313299B36F /* JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3633D372258CA9C3AD1614B16BB231D8 /* JSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3240050346D69005B6F574B924C9BE02 /* JSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BE0040146CA343C2A2E508920B8BB69 /* JSONModelError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39957C6B5E06033C91165949F6DACBE8 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DCC9D8289A5C0037312E9CA5F83C67 /* JSONModelClassProperty.m */; };
+		4DECF17D23B405414935609B8E3D2AD2 /* Pods-iGameS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F561068A535D09866A96927DCEAE0 /* Pods-iGameS-dummy.m */; };
+		4F5959993FD080DDC057DAEBE486595F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */; };
+		535C861085112F7D57ABFBA3CFAEE8C0 /* IGLDropDownItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C7DE77EDF50A03D119C90CE141FBBDC /* IGLDropDownItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		572F99F6F961BD0D940F889E69F72505 /* JSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 75CE41DE0E3A89CFCDBEEA4B6088CC78 /* JSONValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		575CD4CE9F932B4FCE59922F133F90AE /* IGLDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA7A1721F29360625D0B23A740D6B13 /* IGLDropDownMenu.m */; };
+		5FB13C69ACF1D773636F68949CB63012 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		86F7DEDA53CC4284197D7AA63D97C5C0 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7ACD106EC626F02394887D89E52215 /* JSONModel.m */; };
+		88D7AAC32BAFFE2A90E0EE04B2161405 /* JSONModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6258541AFF33B6E1AC47FE832D555C /* JSONModel-dummy.m */; };
+		8C6D73DC7C46637B433D067F923D769F /* JSONModel+networking.h in Headers */ = {isa = PBXBuildFile; fileRef = EB64D9B5DB28475D1DD9B924C7514CF6 /* JSONModel+networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		928F455C06E234439994F51C4028148C /* JSONAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = CA1332789D41B8C8135A385E42A308E1 /* JSONAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CB64A730FFD2462AC02023EC8A97B30 /* IGLDropDownItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCEAD65A34C71CF6BADA1720180F5A7 /* IGLDropDownItem.m */; };
+		A34046A4A407F9A7648BE4F32B2116AE /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A4FB414A8A261958ECBDCC56F1A4D8 /* JSONHTTPClient.m */; };
+		A5F46F78342925536A078C8D1450D4C4 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE0199E3EFE3B25B311BC8F10A2177B /* JSONKeyMapper.m */; };
+		C89161EDC21DBAF463122DB6EB2B892B /* JSONKeyMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = F241CC74BD1BFA33BDAF9748A7F19F1A /* JSONKeyMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF3257200471000FE568EB93CE0124B4 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D7607F7E3B756B28D3E47BDD3EA99C /* JSONValueTransformer.m */; };
+		E66D539811EC51EEFB48B7CC0AFEB557 /* JSONModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8057D3D2795843B383390F98E86CFA5 /* JSONModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F64804BAF773CC4D35A660246BB6A095 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAB3F270CD815173D1BD900728EF813 /* JSONModel+networking.m */; };
+		FDDF50A3B1AFF9B35B47003942F11B4B /* JSONModelClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 4257B043A59C342F53483299C13A47AF /* JSONModelClassProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01EBA4DBB9C0F31D9B6FA9F54FDF692A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DCA67AEEA91E7138CA0A2BC4F993DA6;
+			remoteInfo = JCore;
+		};
+		1DCCCABCE28E14D43A6A5189160BF685 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CE3E0F7EF9B20FC4FBD122F91C64198;
+			remoteInfo = JPush;
+		};
+		5C75689EA232ACDCCE602D558874DCDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DCA67AEEA91E7138CA0A2BC4F993DA6;
+			remoteInfo = JCore;
+		};
+		E50172E37C5A2E1E86085ED65A869382 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC336A5E240E737B382126BF01481D60;
+			remoteInfo = IGLDropDownMenu;
+		};
+		F72EBFE053C0E420BB55E91F9AE9DE67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56E3CD603D494DFF149452467882C294;
+			remoteInfo = JSONModel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01F46BEAA28B4E6A0D5D1E00323174A4 /* IGLDropDownMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IGLDropDownMenu.xcconfig; sourceTree = "<group>"; };
+		04D7607F7E3B756B28D3E47BDD3EA99C /* JSONValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONValueTransformer.m; path = JSONModel/JSONModelTransformations/JSONValueTransformer.m; sourceTree = "<group>"; };
+		0666B6528D0B82D7FB5117BE26E74018 /* JSONHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONHTTPClient.h; path = JSONModel/JSONModelNetworking/JSONHTTPClient.h; sourceTree = "<group>"; };
+		06B50F75FB5FC0BF033340B82DF53723 /* JSONModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONModel-prefix.pch"; sourceTree = "<group>"; };
+		0924B539CDF43B9C3A6232DA52A1ADC2 /* IGLDropDownMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IGLDropDownMenu-umbrella.h"; sourceTree = "<group>"; };
+		0BAB3F270CD815173D1BD900728EF813 /* JSONModel+networking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JSONModel+networking.m"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.m"; sourceTree = "<group>"; };
+		10E50956FDF17CB65AC7FC4BCBD096AC /* libjcore-ios-1.2.6.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjcore-ios-1.2.6.a"; sourceTree = "<group>"; };
+		18E4F563512346E4DE89E2CE7712DFE5 /* Pods-iGameS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iGameS-Info.plist"; sourceTree = "<group>"; };
+		1EA7A1721F29360625D0B23A740D6B13 /* IGLDropDownMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGLDropDownMenu.m; path = IGLDropDownMenu/IGLDropDownMenu.m; sourceTree = "<group>"; };
+		22481488C9B2E2A26135730249D525BA /* JCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JCore.xcconfig; sourceTree = "<group>"; };
+		283EF3660FC30651586C6E9E623CE866 /* IGLDropDownMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IGLDropDownMenu.framework; path = IGLDropDownMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3633D372258CA9C3AD1614B16BB231D8 /* JSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModel.h; path = JSONModel/JSONModel/JSONModel.h; sourceTree = "<group>"; };
+		40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4257B043A59C342F53483299C13A47AF /* JSONModelClassProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelClassProperty.h; path = JSONModel/JSONModel/JSONModelClassProperty.h; sourceTree = "<group>"; };
+		4957EF7AE6980AC13586BDA3B5EFE44D /* libjpush-ios-3.1.2.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjpush-ios-3.1.2.a"; sourceTree = "<group>"; };
+		496271B479A393F9A0742786894B72A9 /* Pods-iGameS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iGameS-umbrella.h"; sourceTree = "<group>"; };
+		4C3F561068A535D09866A96927DCEAE0 /* Pods-iGameS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iGameS-dummy.m"; sourceTree = "<group>"; };
+		4D163B1F54AB68DC62A4952ECF0EB2F7 /* JSONModelLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelLib.h; path = JSONModel/JSONModelLib.h; sourceTree = "<group>"; };
+		4D996BA8454B4F8ECF0E1A6817F548FA /* Pods-iGameS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iGameS.debug.xcconfig"; sourceTree = "<group>"; };
+		502FD652F6161A4A20FB323DD482B0AB /* JPush.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JPush.xcconfig; sourceTree = "<group>"; };
+		50403F891B445F6E3A8BEDE415528AEC /* JPUSHService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
+		507F90653EB758EB8403AF3CF1740864 /* JSONModelError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelError.m; path = JSONModel/JSONModel/JSONModelError.m; sourceTree = "<group>"; };
+		5225F339C34B61DCD36005CA031B28FB /* JSONModel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JSONModel-Info.plist"; sourceTree = "<group>"; };
+		5BE0040146CA343C2A2E508920B8BB69 /* JSONModelError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelError.h; path = JSONModel/JSONModel/JSONModelError.h; sourceTree = "<group>"; };
+		5BE0199E3EFE3B25B311BC8F10A2177B /* JSONKeyMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONKeyMapper.m; path = JSONModel/JSONModelTransformations/JSONKeyMapper.m; sourceTree = "<group>"; };
+		626C7662E0F4453553B3F81A6A15B6EF /* JSONModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSONModel.xcconfig; sourceTree = "<group>"; };
+		6A3E047F9C6E100506A3BC09934E0796 /* Pods-iGameS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iGameS-acknowledgements.plist"; sourceTree = "<group>"; };
+		6C39A4FB8666B647526083F4950667AF /* IGLDropDownMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IGLDropDownMenu-prefix.pch"; sourceTree = "<group>"; };
+		74A4FB414A8A261958ECBDCC56F1A4D8 /* JSONHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONHTTPClient.m; path = JSONModel/JSONModelNetworking/JSONHTTPClient.m; sourceTree = "<group>"; };
+		75CE41DE0E3A89CFCDBEEA4B6088CC78 /* JSONValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONValueTransformer.h; path = JSONModel/JSONModelTransformations/JSONValueTransformer.h; sourceTree = "<group>"; };
+		79787F773116D07C59AEA20BE06C7FB1 /* Pods-iGameS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iGameS.release.xcconfig"; sourceTree = "<group>"; };
+		7B5844B8044BD84671363C4316B378A0 /* JSONModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JSONModel.modulemap; sourceTree = "<group>"; };
+		7B7ACD106EC626F02394887D89E52215 /* JSONModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModel.m; path = JSONModel/JSONModel/JSONModel.m; sourceTree = "<group>"; };
+		7C6766A1F2C32123FF2FA8827E2C9F1A /* IGLDropDownMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IGLDropDownMenu.modulemap; sourceTree = "<group>"; };
+		7D6DF529C8D44EE3BFAC6AE07EEB05D9 /* IGLDropDownMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IGLDropDownMenu-Info.plist"; sourceTree = "<group>"; };
+		7EA8198AA465A17AA938459E7F4A79CE /* Pods-iGameS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iGameS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		80DCC9D8289A5C0037312E9CA5F83C67 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelClassProperty.m; path = JSONModel/JSONModel/JSONModelClassProperty.m; sourceTree = "<group>"; };
+		8340F6FF8EE6DCD90831938F76628837 /* Pods-iGameS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iGameS-frameworks.sh"; sourceTree = "<group>"; };
+		8C7DE77EDF50A03D119C90CE141FBBDC /* IGLDropDownItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGLDropDownItem.h; path = IGLDropDownMenu/IGLDropDownItem.h; sourceTree = "<group>"; };
+		8CCEAD65A34C71CF6BADA1720180F5A7 /* IGLDropDownItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGLDropDownItem.m; path = IGLDropDownMenu/IGLDropDownItem.m; sourceTree = "<group>"; };
+		91EAE243BE17DBF5757A0E709C947808 /* JSONAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONAPI.m; path = JSONModel/JSONModelNetworking/JSONAPI.m; sourceTree = "<group>"; };
+		9660C587669012063DFC53133324F6E7 /* Pods-iGameS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iGameS.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C8057D3D2795843B383390F98E86CFA5 /* JSONModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONModel-umbrella.h"; sourceTree = "<group>"; };
+		CA1332789D41B8C8135A385E42A308E1 /* JSONAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONAPI.h; path = JSONModel/JSONModelNetworking/JSONAPI.h; sourceTree = "<group>"; };
+		CEC34EB448CDB77F2264FECFEDE1018A /* JSONModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSONModel.framework; path = JSONModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6258541AFF33B6E1AC47FE832D555C /* JSONModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSONModel-dummy.m"; sourceTree = "<group>"; };
+		E3BEC286AA4B83F572B7761F817DD5D1 /* IGLDropDownMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IGLDropDownMenu-dummy.m"; sourceTree = "<group>"; };
+		E543F1652F0380FB521EDFD049DC735E /* Pods_iGameS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iGameS.framework; path = "Pods-iGameS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77E717E3E4F291D0D100FC5DB7EAD93 /* IGLDropDownMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGLDropDownMenu.h; path = IGLDropDownMenu/IGLDropDownMenu.h; sourceTree = "<group>"; };
+		EB64D9B5DB28475D1DD9B924C7514CF6 /* JSONModel+networking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JSONModel+networking.h"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.h"; sourceTree = "<group>"; };
+		ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F241CC74BD1BFA33BDAF9748A7F19F1A /* JSONKeyMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONKeyMapper.h; path = JSONModel/JSONModelTransformations/JSONKeyMapper.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E6706B9FC60BD43AF1F2B9DA8E6C469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E28A9F8DFB3F6590C07AE69C5E259F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		513AC07ABE924D108E36C665CF77BD91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB13C69ACF1D773636F68949CB63012 /* Foundation.framework in Frameworks */,
+				4F5959993FD080DDC057DAEBE486595F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0D95922ADB34340ED4642BB172B854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				161A8E220C71AF140846113C4D6F4511 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		073FE5005A75148DCC1DC2748D46260B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				502FD652F6161A4A20FB323DD482B0AB /* JPush.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JPush";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E169A450ED27AC725DF52953F66D11E0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B31842AE304EA0E7044DAA3266DFB56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4957EF7AE6980AC13586BDA3B5EFE44D /* libjpush-ios-3.1.2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49953B5B823BD6BC3C4EAF4CB0ADC7F3 /* Pods-iGameS */ = {
+			isa = PBXGroup;
+			children = (
+				9660C587669012063DFC53133324F6E7 /* Pods-iGameS.modulemap */,
+				7EA8198AA465A17AA938459E7F4A79CE /* Pods-iGameS-acknowledgements.markdown */,
+				6A3E047F9C6E100506A3BC09934E0796 /* Pods-iGameS-acknowledgements.plist */,
+				4C3F561068A535D09866A96927DCEAE0 /* Pods-iGameS-dummy.m */,
+				8340F6FF8EE6DCD90831938F76628837 /* Pods-iGameS-frameworks.sh */,
+				18E4F563512346E4DE89E2CE7712DFE5 /* Pods-iGameS-Info.plist */,
+				496271B479A393F9A0742786894B72A9 /* Pods-iGameS-umbrella.h */,
+				4D996BA8454B4F8ECF0E1A6817F548FA /* Pods-iGameS.debug.xcconfig */,
+				79787F773116D07C59AEA20BE06C7FB1 /* Pods-iGameS.release.xcconfig */,
+			);
+			name = "Pods-iGameS";
+			path = "Target Support Files/Pods-iGameS";
+			sourceTree = "<group>";
+		};
+		5277C05026A00589AB927E2A7D456176 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				CA1332789D41B8C8135A385E42A308E1 /* JSONAPI.h */,
+				91EAE243BE17DBF5757A0E709C947808 /* JSONAPI.m */,
+				0666B6528D0B82D7FB5117BE26E74018 /* JSONHTTPClient.h */,
+				74A4FB414A8A261958ECBDCC56F1A4D8 /* JSONHTTPClient.m */,
+				F241CC74BD1BFA33BDAF9748A7F19F1A /* JSONKeyMapper.h */,
+				5BE0199E3EFE3B25B311BC8F10A2177B /* JSONKeyMapper.m */,
+				3633D372258CA9C3AD1614B16BB231D8 /* JSONModel.h */,
+				7B7ACD106EC626F02394887D89E52215 /* JSONModel.m */,
+				EB64D9B5DB28475D1DD9B924C7514CF6 /* JSONModel+networking.h */,
+				0BAB3F270CD815173D1BD900728EF813 /* JSONModel+networking.m */,
+				4257B043A59C342F53483299C13A47AF /* JSONModelClassProperty.h */,
+				80DCC9D8289A5C0037312E9CA5F83C67 /* JSONModelClassProperty.m */,
+				5BE0040146CA343C2A2E508920B8BB69 /* JSONModelError.h */,
+				507F90653EB758EB8403AF3CF1740864 /* JSONModelError.m */,
+				4D163B1F54AB68DC62A4952ECF0EB2F7 /* JSONModelLib.h */,
+				75CE41DE0E3A89CFCDBEEA4B6088CC78 /* JSONValueTransformer.h */,
+				04D7607F7E3B756B28D3E47BDD3EA99C /* JSONValueTransformer.m */,
+				A4420DD81DCBC7CA1C92E08B42137050 /* Support Files */,
+			);
+			name = JSONModel;
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		56FB220B79EE613A605700815842F916 /* JPush */ = {
+			isa = PBXGroup;
+			children = (
+				50403F891B445F6E3A8BEDE415528AEC /* JPUSHService.h */,
+				2B31842AE304EA0E7044DAA3266DFB56 /* Frameworks */,
+				073FE5005A75148DCC1DC2748D46260B /* Support Files */,
+			);
+			name = JPush;
+			path = JPush;
+			sourceTree = "<group>";
+		};
+		683CA2086E8E55736D9ECBA7234690A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				283EF3660FC30651586C6E9E623CE866 /* IGLDropDownMenu.framework */,
+				CEC34EB448CDB77F2264FECFEDE1018A /* JSONModel.framework */,
+				E543F1652F0380FB521EDFD049DC735E /* Pods_iGameS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		751E0ADFCFFEE501C4308D4B11FB78F0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				49953B5B823BD6BC3C4EAF4CB0ADC7F3 /* Pods-iGameS */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		792B225185FDEEE3B8AF99329F4C06EA /* JCore */ = {
+			isa = PBXGroup;
+			children = (
+				AFFFDA413C1992D9859057F4D089A414 /* Frameworks */,
+				ED20C15374BDBE309C7580618B965D83 /* Support Files */,
+			);
+			name = JCore;
+			path = JCore;
+			sourceTree = "<group>";
+		};
+		A4420DD81DCBC7CA1C92E08B42137050 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B5844B8044BD84671363C4316B378A0 /* JSONModel.modulemap */,
+				626C7662E0F4453553B3F81A6A15B6EF /* JSONModel.xcconfig */,
+				DC6258541AFF33B6E1AC47FE832D555C /* JSONModel-dummy.m */,
+				5225F339C34B61DCD36005CA031B28FB /* JSONModel-Info.plist */,
+				06B50F75FB5FC0BF033340B82DF53723 /* JSONModel-prefix.pch */,
+				C8057D3D2795843B383390F98E86CFA5 /* JSONModel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JSONModel";
+			sourceTree = "<group>";
+		};
+		AFFFDA413C1992D9859057F4D089A414 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10E50956FDF17CB65AC7FC4BCBD096AC /* libjcore-ios-1.2.6.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7C1A8A31FB5E84104254FDABBECAED5 /* IGLDropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				8C7DE77EDF50A03D119C90CE141FBBDC /* IGLDropDownItem.h */,
+				8CCEAD65A34C71CF6BADA1720180F5A7 /* IGLDropDownItem.m */,
+				E77E717E3E4F291D0D100FC5DB7EAD93 /* IGLDropDownMenu.h */,
+				1EA7A1721F29360625D0B23A740D6B13 /* IGLDropDownMenu.m */,
+				CCDDB3D2B171B06A11B31755EDC09D9A /* Support Files */,
+			);
+			name = IGLDropDownMenu;
+			path = IGLDropDownMenu;
+			sourceTree = "<group>";
+		};
+		CCDDB3D2B171B06A11B31755EDC09D9A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C6766A1F2C32123FF2FA8827E2C9F1A /* IGLDropDownMenu.modulemap */,
+				01F46BEAA28B4E6A0D5D1E00323174A4 /* IGLDropDownMenu.xcconfig */,
+				E3BEC286AA4B83F572B7761F817DD5D1 /* IGLDropDownMenu-dummy.m */,
+				7D6DF529C8D44EE3BFAC6AE07EEB05D9 /* IGLDropDownMenu-Info.plist */,
+				6C39A4FB8666B647526083F4950667AF /* IGLDropDownMenu-prefix.pch */,
+				0924B539CDF43B9C3A6232DA52A1ADC2 /* IGLDropDownMenu-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IGLDropDownMenu";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				D793B478D82A780D578FED4B6D432004 /* Pods */,
+				683CA2086E8E55736D9ECBA7234690A8 /* Products */,
+				751E0ADFCFFEE501C4308D4B11FB78F0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D793B478D82A780D578FED4B6D432004 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7C1A8A31FB5E84104254FDABBECAED5 /* IGLDropDownMenu */,
+				792B225185FDEEE3B8AF99329F4C06EA /* JCore */,
+				56FB220B79EE613A605700815842F916 /* JPush */,
+				5277C05026A00589AB927E2A7D456176 /* JSONModel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E169A450ED27AC725DF52953F66D11E0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */,
+				ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		ED20C15374BDBE309C7580618B965D83 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				22481488C9B2E2A26135730249D525BA /* JCore.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JCore";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1F5118CC862E607A95C91552C545E3CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1024AE44A2FDA0A8DA59FFC0461DE6C7 /* Pods-iGameS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		623B7D6F201BBC2D5C531065705B5A60 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				535C861085112F7D57ABFBA3CFAEE8C0 /* IGLDropDownItem.h in Headers */,
+				09BE87ED07CF00F1CF58B8BABC2EFBC4 /* IGLDropDownMenu-umbrella.h in Headers */,
+				2B41042A9F9BB71371099BAEE092C151 /* IGLDropDownMenu.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A4BFB60A6B8AFFE0E5BB3C1DF50BBF0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928F455C06E234439994F51C4028148C /* JSONAPI.h in Headers */,
+				0A6B94D8877C0E4AE9B1105AB2F58382 /* JSONHTTPClient.h in Headers */,
+				C89161EDC21DBAF463122DB6EB2B892B /* JSONKeyMapper.h in Headers */,
+				8C6D73DC7C46637B433D067F923D769F /* JSONModel+networking.h in Headers */,
+				E66D539811EC51EEFB48B7CC0AFEB557 /* JSONModel-umbrella.h in Headers */,
+				2FB551018B95C5F599F40F313299B36F /* JSONModel.h in Headers */,
+				FDDF50A3B1AFF9B35B47003942F11B4B /* JSONModelClassProperty.h in Headers */,
+				3240050346D69005B6F574B924C9BE02 /* JSONModelError.h in Headers */,
+				2693A09F9361C71EE9255CA97DE041C8 /* JSONModelLib.h in Headers */,
+				572F99F6F961BD0D940F889E69F72505 /* JSONValueTransformer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		56E3CD603D494DFF149452467882C294 /* JSONModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 776C45FC4051FAFF12BC483BE794308A /* Build configuration list for PBXNativeTarget "JSONModel" */;
+			buildPhases = (
+				7A4BFB60A6B8AFFE0E5BB3C1DF50BBF0 /* Headers */,
+				0C5630CEDE1B38817B5E8187AE8A78A4 /* Sources */,
+				4E6706B9FC60BD43AF1F2B9DA8E6C469 /* Frameworks */,
+				8DC1C704377093952F80F9336B47A82F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSONModel;
+			productName = JSONModel;
+			productReference = CEC34EB448CDB77F2264FECFEDE1018A /* JSONModel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC336A5E240E737B382126BF01481D60 /* IGLDropDownMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5C5720FB4BFAC3A8B7DF1C6F36615F2 /* Build configuration list for PBXNativeTarget "IGLDropDownMenu" */;
+			buildPhases = (
+				623B7D6F201BBC2D5C531065705B5A60 /* Headers */,
+				A690D46624327081CF2FFBDE4BDF3500 /* Sources */,
+				513AC07ABE924D108E36C665CF77BD91 /* Frameworks */,
+				99C11B2BB05AB3B84C819820464FB759 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IGLDropDownMenu;
+			productName = IGLDropDownMenu;
+			productReference = 283EF3660FC30651586C6E9E623CE866 /* IGLDropDownMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E8BBE7F2E512B42C1DA9046A2EFEF319 /* Pods-iGameS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D86A692FD3B29FBBE307F976E1193F5 /* Build configuration list for PBXNativeTarget "Pods-iGameS" */;
+			buildPhases = (
+				1F5118CC862E607A95C91552C545E3CE /* Headers */,
+				041692079DF44FC4D5D2C1037C2D8359 /* Sources */,
+				FA0D95922ADB34340ED4642BB172B854 /* Frameworks */,
+				A78098309F1B6D5D77EF78FAA556E31C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AC41CB5B446A9F5B3096DA8B1159600 /* PBXTargetDependency */,
+				5CCC1C5EE9CAAAEBE375300F53B56BB6 /* PBXTargetDependency */,
+				C2903F166A6527347655EBC0E288F686 /* PBXTargetDependency */,
+				66027786EC224982A36D9A3FA808FF74 /* PBXTargetDependency */,
+			);
+			name = "Pods-iGameS";
+			productName = "Pods-iGameS";
+			productReference = E543F1652F0380FB521EDFD049DC735E /* Pods_iGameS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 683CA2086E8E55736D9ECBA7234690A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC336A5E240E737B382126BF01481D60 /* IGLDropDownMenu */,
+				6DCA67AEEA91E7138CA0A2BC4F993DA6 /* JCore */,
+				2CE3E0F7EF9B20FC4FBD122F91C64198 /* JPush */,
+				56E3CD603D494DFF149452467882C294 /* JSONModel */,
+				E8BBE7F2E512B42C1DA9046A2EFEF319 /* Pods-iGameS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DC1C704377093952F80F9336B47A82F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C11B2BB05AB3B84C819820464FB759 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A78098309F1B6D5D77EF78FAA556E31C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		041692079DF44FC4D5D2C1037C2D8359 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DECF17D23B405414935609B8E3D2AD2 /* Pods-iGameS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C5630CEDE1B38817B5E8187AE8A78A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DED879A43AF6014BB29A59F2AFFCF5 /* JSONAPI.m in Sources */,
+				A34046A4A407F9A7648BE4F32B2116AE /* JSONHTTPClient.m in Sources */,
+				A5F46F78342925536A078C8D1450D4C4 /* JSONKeyMapper.m in Sources */,
+				F64804BAF773CC4D35A660246BB6A095 /* JSONModel+networking.m in Sources */,
+				88D7AAC32BAFFE2A90E0EE04B2161405 /* JSONModel-dummy.m in Sources */,
+				86F7DEDA53CC4284197D7AA63D97C5C0 /* JSONModel.m in Sources */,
+				39957C6B5E06033C91165949F6DACBE8 /* JSONModelClassProperty.m in Sources */,
+				18C617CEA0EA66D3C1EA6CDEF3FB772D /* JSONModelError.m in Sources */,
+				CF3257200471000FE568EB93CE0124B4 /* JSONValueTransformer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A690D46624327081CF2FFBDE4BDF3500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB64A730FFD2462AC02023EC8A97B30 /* IGLDropDownItem.m in Sources */,
+				073C8C62E601BFF0DEF987DAFB990081 /* IGLDropDownMenu-dummy.m in Sources */,
+				575CD4CE9F932B4FCE59922F133F90AE /* IGLDropDownMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AC41CB5B446A9F5B3096DA8B1159600 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IGLDropDownMenu;
+			target = CC336A5E240E737B382126BF01481D60 /* IGLDropDownMenu */;
+			targetProxy = E50172E37C5A2E1E86085ED65A869382 /* PBXContainerItemProxy */;
+		};
+		5CCC1C5EE9CAAAEBE375300F53B56BB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JCore;
+			target = 6DCA67AEEA91E7138CA0A2BC4F993DA6 /* JCore */;
+			targetProxy = 01EBA4DBB9C0F31D9B6FA9F54FDF692A /* PBXContainerItemProxy */;
+		};
+		61A7D75865C20272D53BC19298DA2A93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JCore;
+			target = 6DCA67AEEA91E7138CA0A2BC4F993DA6 /* JCore */;
+			targetProxy = 5C75689EA232ACDCCE602D558874DCDC /* PBXContainerItemProxy */;
+		};
+		66027786EC224982A36D9A3FA808FF74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSONModel;
+			target = 56E3CD603D494DFF149452467882C294 /* JSONModel */;
+			targetProxy = F72EBFE053C0E420BB55E91F9AE9DE67 /* PBXContainerItemProxy */;
+		};
+		C2903F166A6527347655EBC0E288F686 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JPush;
+			target = 2CE3E0F7EF9B20FC4FBD122F91C64198 /* JPush */;
+			targetProxy = 1DCCCABCE28E14D43A6A5189160BF685 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06FE5041C81E2C2C0E0424D1BFF87F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22481488C9B2E2A26135730249D525BA /* JCore.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D48C4406BDA1F2349F92D118DCF240C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 502FD652F6161A4A20FB323DD482B0AB /* JPush.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DA00635961FF1BBF56433455CC5EC6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 626C7662E0F4453553B3F81A6A15B6EF /* JSONModel.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSONModel/JSONModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSONModel/JSONModel.modulemap";
+				PRODUCT_MODULE_NAME = JSONModel;
+				PRODUCT_NAME = JSONModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4093433A309EFE160336AC736594AB22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		419601E20157B823AFB9D1E88F8EAD7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 626C7662E0F4453553B3F81A6A15B6EF /* JSONModel.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSONModel/JSONModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSONModel/JSONModel.modulemap";
+				PRODUCT_MODULE_NAME = JSONModel;
+				PRODUCT_NAME = JSONModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		651AA4E7FA7FDBD2DCAC668A2AA82452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01F46BEAA28B4E6A0D5D1E00323174A4 /* IGLDropDownMenu.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IGLDropDownMenu/IGLDropDownMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IGLDropDownMenu/IGLDropDownMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IGLDropDownMenu/IGLDropDownMenu.modulemap";
+				PRODUCT_MODULE_NAME = IGLDropDownMenu;
+				PRODUCT_NAME = IGLDropDownMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8C0D0E72F45F51ECBE06F3C66FE34CF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79787F773116D07C59AEA20BE06C7FB1 /* Pods-iGameS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iGameS/Pods-iGameS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iGameS/Pods-iGameS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		924D56B1D59CD3049300EAEEA256114E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D0F0BA072844A39A64BD93957C97852E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01F46BEAA28B4E6A0D5D1E00323174A4 /* IGLDropDownMenu.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IGLDropDownMenu/IGLDropDownMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IGLDropDownMenu/IGLDropDownMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IGLDropDownMenu/IGLDropDownMenu.modulemap";
+				PRODUCT_MODULE_NAME = IGLDropDownMenu;
+				PRODUCT_NAME = IGLDropDownMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D62E8358BFDF0ABAC56AE436AFFC537B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D996BA8454B4F8ECF0E1A6817F548FA /* Pods-iGameS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iGameS/Pods-iGameS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iGameS/Pods-iGameS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E36DEA79071A902993CD95C2BC6F23CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22481488C9B2E2A26135730249D525BA /* JCore.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9764FBC1274256E719E2207E57545F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 502FD652F6161A4A20FB323DD482B0AB /* JPush.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D86A692FD3B29FBBE307F976E1193F5 /* Build configuration list for PBXNativeTarget "Pods-iGameS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62E8358BFDF0ABAC56AE436AFFC537B /* Debug */,
+				8C0D0E72F45F51ECBE06F3C66FE34CF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4093433A309EFE160336AC736594AB22 /* Debug */,
+				924D56B1D59CD3049300EAEEA256114E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EE7338F2FBA1E0EC226EF8C45298469 /* Build configuration list for PBXAggregateTarget "JCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06FE5041C81E2C2C0E0424D1BFF87F2E /* Debug */,
+				E36DEA79071A902993CD95C2BC6F23CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		776C45FC4051FAFF12BC483BE794308A /* Build configuration list for PBXNativeTarget "JSONModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA00635961FF1BBF56433455CC5EC6E /* Debug */,
+				419601E20157B823AFB9D1E88F8EAD7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FECBDA288EFDA57C5108034E2414BDF /* Build configuration list for PBXAggregateTarget "JPush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9764FBC1274256E719E2207E57545F2 /* Debug */,
+				2D48C4406BDA1F2349F92D118DCF240C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5C5720FB4BFAC3A8B7DF1C6F36615F2 /* Build configuration list for PBXNativeTarget "IGLDropDownMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				651AA4E7FA7FDBD2DCAC668A2AA82452 /* Debug */,
+				D0F0BA072844A39A64BD93957C97852E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

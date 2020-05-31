@@ -1,0 +1,28 @@
+PODS:
+  - IGLDropDownMenu (1.6.2)
+  - JCore (1.2.6)
+  - JPush (3.1.2):
+    - JCore (~> 1.2.6)
+  - JSONModel (1.8.0)
+
+DEPENDENCIES:
+  - IGLDropDownMenu
+  - JPush
+  - JSONModel
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - IGLDropDownMenu
+    - JCore
+    - JPush
+    - JSONModel
+
+SPEC CHECKSUMS:
+  IGLDropDownMenu: ae118618ae858fa66ce7c2ac80ed9124a710b228
+  JCore: cae516dd2bf1a73b578ce6e1065abd49e709e0f7
+  JPush: d0cead70ba223a6a3b52749899ebda830dfbc49a
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+
+PODFILE CHECKSUM: 9fbd8a19af0f4426a1293108562b108fec4655dc
+
+COCOAPODS: 1.6.1
